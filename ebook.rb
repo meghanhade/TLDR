@@ -9,7 +9,7 @@ require 'htmlentities'
 
 source_tweets = []
 
-$rand_limit ||= 10
+$rand_limit ||= 0
 $markov_index ||= 1
 
 puts "PARAMS: #{params}" if params.any?
@@ -20,7 +20,7 @@ end
 
 rand_key = rand($rand_limit)
 
-CLOSING_PUNCTUATION = ['.', ';', ':', '?', '!']
+CLOSING_PUNCTUATION = ['.', ';', ':', '?', '!', '...']
 
 def random_closing_punctuation
   CLOSING_PUNCTUATION[rand(CLOSING_PUNCTUATION.length)]
