@@ -1,6 +1,6 @@
-# Iron_ebooks
+# TLDR
 
-A simple and hackish ruby script for pseudorandomly posting to a _ebooks account tweets derived from a regular twitter account
+A work in progress. Basic instructions below for setting up an ebooks-esque bot.
 
 ## Setup
 
